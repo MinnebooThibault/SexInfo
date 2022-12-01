@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+  database:
+    image: mariadb:10
+    restart: unless-stopped
+    env_file:
+      - ./.env
+  
+  client:
+    build: ./client/
+    restart: unless-stopped
+  
+  server:
+    build: ./server/
+    restart: unless-stopped
+    env_file:
+      - ./.env

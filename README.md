@@ -25,6 +25,11 @@ Ce projet est un site en ligne sous forme de quizz pouvant être joué par n'imp
 Chaque question rapporte de l'xp ce qui permet d'augmenter le niveau des joueurs, et un certain nombre de pièces qui permettent d'achet des objets.
 
 Les objets permettent d'avoir des avantages/désavantages en partie.
+
+Le jeu est mis en scène par un présentateur, dont chaque question est présenté via un voice-over. Sur la scène, une grille des joueurs encore "vivant" seront présents. Chaque utilisateur est représenté par un avater, avec un skin qu'il pourrait définir depuis son profile.
+
+Sprite de l'annonceur :
+![Sprite Présentateur](/site/assets/annoncer.png)
 ### Pages du site
 > Acceuil
 
@@ -52,6 +57,9 @@ Profil de l'utilisateur lié à son compte Discord, qui contiendrais :
 - Liste d'Achievement
 - Objets (+ achat d'objets)
 
+> Informations
+
+Une page dédié aux informations par rapport au sujet de cette nuit de l'info était prévue.
 ### Plot twist
 
 Nous nous sentions capable de faire ce projet si et seulement si on aurait eu plus de temps pour apprendre, car nous n'avions tous pas assez d'expérience (5 premières années de BUT, 1 de seconde année de BUT). 

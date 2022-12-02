@@ -1,5 +1,5 @@
 import mysql from 'mysql2/promise';
-import { IAchievement, IHistorique, IObjet, IQuestion, ISkin, IUser } from './interfaces';
+import { IAchievement, IHistorique, IObjet, IQuestion, ISkin, IPlayer } from './interfaces';
 
 export default class Database {
     private static connection: mysql.Connection;
@@ -79,7 +79,7 @@ export default class Database {
         return rows as IAchievement[];
     }
 
-    public static async getUserById(userId: number) : Promise<IUser | null> {
+    public static async getUserById(userId: number) : Promise<IPlayer | null> {
         const [rows, fields] = await this.connection.execute(`
             SELECT *
             FROM user
@@ -91,13 +91,13 @@ export default class Database {
         }
 
         return {
-            id: (rows[0] as IUser).id,
-            xp: (rows[0] as IUser).xp,
-            pieces: (rows[0] as IUser).pieces,
+            id: (rows[0] as IPlayer).id,
+            xp: (rows[0] as IPlayer).xp,
+            pieces: (rows[0] as IPlayer).pieces,
             skinCourant: await this.getSkinById(userId),
             skinsPossedes: await this.getSkinsOwnedByUserId(userId),
             objetsPossedes: await this.getObjetsByUserId(userId),
             achievement: await this.getAchievementByUserId(userId)
-        } as IUser;
+        } as IPlayer;
     }
 }

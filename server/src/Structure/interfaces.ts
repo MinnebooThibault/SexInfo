@@ -34,7 +34,7 @@ export interface IAchievement {
     description: string;
 };
 
-export interface IUser {
+export interface IPlayer {
     id: number;
     xp: number;
     pieces: number;
@@ -43,3 +43,10 @@ export interface IUser {
     objetsPossedes: IObjet[];
     achievement: IAchievement[];
 };
+
+export enum GameState {
+    INIT,
+    ASKING,
+    AWNSERING,
+    CLOSE
+}

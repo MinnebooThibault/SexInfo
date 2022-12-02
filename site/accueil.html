@@ -7,20 +7,70 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <a href="accueil.html">Accueil</a>
-        <a href="game.html">Jeu</a>
-        <a href="leaderboard.html">Leaderboard</a>
-        <a href="profil.html">Profil</a>
-        <a href="informations.html">Plus d'Info</a>
-        <img src="" alt="Pdp profil">
-    </header>
+<body class="bg-purple-50">
     <main>
-        <h1>LE TITRE DU SITE</h1>
-        <p>Présentation du site</p>
-        <button>Rejoindre</button>
+        <div class="flex flex-col w-[60%] m-auto">
+            <h1 class="text-6xl py-6">SexInfo</h1>
+
+            <p class="py-2 indent-6">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget. In arcu
+                cursus euismod quis viverra nibh cras. Arcu bibendum at varius vel. Suspendisse ultrices gravida
+                dictum fusce ut. Lectus mauris ultrices eros in cursus turpis massa. Semper quis lectus nulla at
+                volutpat diam. Eget arcu dictum varius duis at consectetur lorem. Ullamcorper morbi tincidunt ornare
+                massa eget egestas. Semper viverra nam libero justo laoreet. Elementum facilisis leo vel fringilla.
+                Facilisi nullam vehicula ipsum a arcu cursus vitae. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Consectetur a erat nam at lectus. Vitae justo eget magna fermentum iaculis eu. Placerat in egestas erat imperdiet sed euismod. Porttitor rhoncus dolor purus non enim. Aliquam faucibus purus in massa tempor nec feugiat. Sed vulputate mi sit amet mauris commodo quis imperdiet.
+            </p>
+            <p class="indent-6">
+                Elit duis tristique sollicitudin nibh sit amet commodo nulla. Mauris ultrices eros in cursus turpis massa tincidunt dui ut. Pharetra convallis posuere morbi leo urna molestie at elementum eu. Pulvinar pellentesque habitant morbi tristique senectus et netus et. Et egestas quis ipsum suspendisse ultrices. Non arcu risus quis varius quam quisque. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Bibendum enim facilisis gravida neque convallis a cras semper auctor. Consectetur adipiscing elit ut aliquam purus sit amet luctus. Lobortis mattis aliquam faucibus purus in massa tempor nec. Tempus egestas sed sed risus pretium quam vulputate dignissim. Facilisis mauris sit amet massa vitae tortor condimentum lacinia. Maecenas sed enim ut sem viverra aliquet eget sit. Odio tempor orci dapibus ultrices in iaculis nunc. Leo a diam sollicitudin tempor. Sed felis eget velit aliquet sagittis id consectetur purus. Nisl vel pretium lectus quam. Facilisis volutpat est velit egestas dui id ornare arcu.
+            </p>
+            <div class="flex flex-row justify-center pt-6">
+                <button id="discord" class="px-8">
+                    <div class="grid gap-8 items-start justify-center">
+                        <div class="relative group">
+                            <div
+                                    class="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-pink-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                            <div class="relative sm:text-4xl xl:text-xl px-7 py-4 bg-gradient-to-r from-indigo-500 to-purple-500
+                        rounded-lg leading-none flex items-center justify-between divide-x divide-gray-600
+                        hover:cursor-pointer select-none">
+                            <span class="flex items-center space-x-5">
+                                <span class="text-gray-100">Connexion avec Discord</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                     viewBox="0 0 24 24"
+                                     stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+                <button id="guest" class="px-8">
+                    <div class="grid gap-8 items-start justify-center">
+                        <div class="relative group">
+                            <div
+                                    class="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-pink-500 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                            <div
+                                    class="relative sm:text-4xl xl:text-xl px-7 py-4 bg-gradient-to-r from-indigo-400 to-purple-400
+                        rounded-lg leading-none flex items-center justify-between divide-x divide-gray-600
+                        hover:cursor-pointer select-none">
+                            <span class="flex items-center space-x-5">
+                                <span class="text-gray-100">Jouer en tant qu'invité</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                     viewBox="0 0 24 24"
+                                     stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+            </div>
+
+        </div>
     </main>
 </body>
 </html>

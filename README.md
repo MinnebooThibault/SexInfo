@@ -21,14 +21,14 @@ Ce projet est un site en ligne sous forme de quizz pouvant être joué par n'imp
 
 ## Principe du jeu
 ### Pages du site
-- Acceuil
+> Acceuil
 
 Acceuil présentant le site en lui même, et contenant la connexion des utilisateurs. 
-- Jeu
+> Jeu
 
 Contenu du jeu en lui même.
 
-- Leaderboard
+> Leaderboard
 
 Affichage en temps réel du classement des joueurs, qui serait sous forme de :
 | Rang | Nom de l'utilisateur | Niveau | xp |
@@ -36,6 +36,16 @@ Affichage en temps réel du classement des joueurs, qui serait sous forme de :
 | #1 | Moi | 12 | 1304xp |
 | #2 | Lui | 11 | 1240xp |
 | ... | ... | ... | ... |
+
+> Profil
+
+Profil de l'utilisateur lié à son compte Discord, qui contiendrais :
+- Photo de profile (de Discord)
+- Niveau
+- xp
+- Sélection de Skin (choix entre 4, +1 spécial)
+- Liste d'Achievement
+- Pièces (?)
 
 ## Outils utilisés
 

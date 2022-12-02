@@ -1,9 +1,12 @@
 # Sexinfo
+https://sexinfo.simon511000.fr/
 
 ## Sommaire
 - [Présentation du projet](#présentation-du-projet)
 - [Principe du jeu](#principe-du-jeu)
+    - [Description du jeu](#description)
     - [Pages du site](#pages-du-site)
+    - [Plot Twist !](#plot-twist)
 - [Outils utilisés](#outils-utilisés)
 - [Défis](#défis)
     - [Docker](#docker-✅)
@@ -11,15 +14,17 @@
     - [Easter egg](#easter-eggs-❌)
     - [Bot Discord](#bot-discord-❌)
     - [Accessibilité](#accessibilité-❌✅)
-<details>
-    <summary>Dérouler</summary>
-    
-</details>
 
 ## Présentation du projet
 Ce projet est un site en ligne sous forme de quizz pouvant être joué par n'importe qui. Le quizz porterait sur des questions autour de la sexualité, principalement à propos de ses risques. Les utilisateurs auront le choix entre 4 réponses (de la même manière que Kahoot).
 
 ## Principe du jeu
+### Description
+100 joueurs maximum en simulanés dans un lobby. 3 vies par personne par partie sous format battle royale. La réponse des questions sera affiché quand tout le monde aura choisi sa réponse ou que le temps imparti est écoulé. De ce fait, il y a bien un temps imparti par réponse, un peu de la même manière qu'un Kahoot.
+
+Chaque question rapporte de l'xp ce qui permet d'augmenter le niveau des joueurs, et un certain nombre de pièces qui permettent d'achet des objets.
+
+Les objets permettent d'avoir des avantages/désavantages en partie.
 ### Pages du site
 > Acceuil
 
@@ -45,8 +50,13 @@ Profil de l'utilisateur lié à son compte Discord, qui contiendrais :
 - xp
 - Sélection de Skin (choix entre 4, +1 spécial)
 - Liste d'Achievement
-- Pièces (?)
+- Objets (+ achat d'objets)
 
+### Plot twist
+
+Nous nous sentions capable de faire ce projet si et seulement si on aurait eu plus de temps pour apprendre, car nous n'avions tous pas assez d'expérience (5 premières années de BUT, 1 de seconde année de BUT). 
+
+C'est un problème notamment sur la communication entre le client et le serveur (et aussi le fait qu'on puisse pas obtenir les infos des ids de Discord) qui a progressivement bloqué chaque tâches prévues.
 ## Outils utilisés
 
 > Docker
